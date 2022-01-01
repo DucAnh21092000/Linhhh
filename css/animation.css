@@ -1,0 +1,66 @@
+@keyframes changeColorYear {
+    from{
+        color:red;
+        opacity: 0.7;
+        
+    }
+    to {
+        opacity: 1;
+       
+    }
+}
+@keyframes changeColorContent {
+    from{
+        color:white;
+        opacity: 0.7;
+        
+    }
+    to {
+        opacity: 1;
+       
+    }
+}
+
+@keyframes changeColorIcon {
+    from{
+        text-shadow:white 4px 4px;
+        opacity: 0.7;
+        
+    }
+    to {
+        opacity: 1;
+        text-shadow:red 4px 4px;
+       
+    }
+}
+
+.animation3{
+    animation:  changeColorIcon 5s infinite;
+}
+.animation1{
+    animation: changeColorYear 5s infinite ;
+}
+.animation2{
+    animation: changeColorContent 5s infinite ;
+}
+.icon{
+    color:red;
+    font-size: 2rem;
+    text-shadow: red 4px 4px;
+}
+.canvas{
+    height: 100%;
+    width: 100%;
+}
+.volumn,.muted{
+    position:absolute;
+    z-index:9;
+    color: white;
+    bottom:0;
+}
+.muted{
+    right:20px;
+}
+.volumn{
+    right:70px
+}
