@@ -2,7 +2,7 @@ let initialValue = {
     year:"2022",
     content:"Happy New Year !",
     icon: " ❤❤❤❤",
-    mess:"Bạn Linh Xgái =))"
+    mess:"bạn Linh xinh gái"
 }
 
 const year = document.querySelector('.year')
